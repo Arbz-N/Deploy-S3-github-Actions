@@ -2,7 +2,7 @@ name: Portfolio Deployment in S3 via Github-Action
 on:
   push:
     branches:
-      main:
+     - main
 jobs:
   build_deploy:
     runs-on: ubuntu-latest
